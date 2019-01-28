@@ -1,6 +1,5 @@
 {
   "name": "ide-clangd-toolbar",
-  "author": "Mateusz Budzisz",
   "main": "./lib/ide-clangd-toolbar",
   "version": "0.0.0",
   "description": "Some useful shortcuts for cmake",
@@ -12,8 +11,18 @@
   "repository": "https://github.com/electroluxv2/ide-clangd-toolbar",
   "license": "MIT",
   "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+    "atom": ">=1.20.0"
   },
   "dependencies": {
+  },
+  "packageDependencies": {
+    "tool-bar": "^1.1.0"
+  },
+  "consumedServices": {
+    "tool-bar": {
+      "versions": {
+        "^0 || ^1": "consumeToolBar"
+      }
+    }
   }
 }
