@@ -1,5 +1,6 @@
 {
   "name": "ide-clangd-toolbar",
+  "author": "Mateusz Budzisz",
   "main": "./lib/ide-clangd-toolbar",
   "version": "0.0.0",
   "description": "A short description of your package",
