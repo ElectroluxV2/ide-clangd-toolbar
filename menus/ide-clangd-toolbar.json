@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle ide-clangd-toolbar",
+        "command": "ide-clangd-toolbar:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ide-clangd-toolbar",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "ide-clangd-toolbar:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

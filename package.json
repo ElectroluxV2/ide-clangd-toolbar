@@ -1,0 +1,18 @@
+{
+  "name": "ide-clangd-toolbar",
+  "main": "./lib/ide-clangd-toolbar",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "ide-clangd-toolbar:toggle"
+  },
+  "repository": "https://github.com/electroluxv2/ide-clangd-toolbar",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
